@@ -14,13 +14,14 @@ body {
 	align-content: center;
 	border: none;
 	text-align:center;
-	height:30px;
-	width:30px;
-	background-size: 30px;
+	height:10%;
+	width:5%;
+	background-size: 90%;
 	background-image: url(img/OpenAI_icon.svg);
 	background-position:center;
 	background-repeat: no-repeat;
 	background-color: #10a37f;
+	border-radius:12px;
 }
 
 #btnalign {
