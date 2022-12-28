@@ -17,9 +17,10 @@ body {
 	height:30px;
 	width:30px;
 	background-size: 30px;
-	background-image: url(img/openai-svgrepo-com.svg);
+	background-image: url(img/OpenAI_icon.svg);
 	background-position:center;
 	background-repeat: no-repeat;
+	background-color: #10a37f;
 }
 
 #btnalign {
