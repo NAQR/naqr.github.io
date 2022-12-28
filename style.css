@@ -9,3 +9,19 @@ body {
 #main_title {
 	text-align: center;
 }
+
+#btnai {
+	align-content: center;
+	border: none;
+	text-align:center;
+	height:30px;
+	width:30px;
+	background-size: 30px;
+	background-image: url(img/openai-svgrepo-com.svg);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+#btnalign {
+	text-align: center;
+}
