@@ -14,8 +14,8 @@ body {
 	align-content: center;
 	border: none;
 	text-align:center;
-	width:5%;
-	background-size: 90%;
+	width:3%;
+	background-size: 95%;
 	background-image: url(img/OpenAI_icon.svg);
 	background-position:center;
 	background-repeat: no-repeat;
@@ -35,7 +35,8 @@ body {
 	}
 
 	#btnai {
-		width:20%;
+		width:10%;
+		background-size: 90%;
 	}
 }
 
