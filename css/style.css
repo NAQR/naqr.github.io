@@ -13,8 +13,6 @@ body {
 #btnai {
 	align-content: center;
 	border:0;
-	outline: solid;
-	outline-color:#10a37f;
 	text-align:center;
 	width:3%;
 	background-size: 95%;
@@ -24,14 +22,14 @@ body {
 	background-color: #10a37f;
 	border-radius:12px;
 	padding-top:10px;
-	-webkit-transition: outline-color 2s ease-out;
-  	-moz-transition: outline-color 2s ease-out;
-  	-o-transition: outline-color 2s ease-out;
-  	transition: outline-color 2s ease-out;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
 }
 
 #btnai:hover {
-	outline-color: darkslategray;
+	background-color: darkslategray;
 }
 
 #btnai:after {
@@ -54,4 +52,14 @@ body {
 
 #btnalign {
 	text-align: center;
+}
+
+#popup_gpt {
+	display: none;
+	text-align: center;
+	border: solid 1px black;
+	width: 50%;
+    margin: 0 auto;
+	margin-top: 10px;
+	background-color: #f2f3f5;
 }

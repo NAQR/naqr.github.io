@@ -2,14 +2,18 @@
     <title>Titre test</title>
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
     <body>
         <h1 id="main_title">Hello la team 🦍</h1>
         <div id="btnalign">
-            <button id="btnai" type="button"/>
+            <button id="btnai" onclick="pop()" type="button"/>
         </div>
         <div>
-            go
+            <span id="popup_gpt">
+                <p>Ce site a été développé en très grande majorité par ChatGPT, le modèle de langage entraîné par OpenAI.</p>
+                <p><a target="_blank" href="https://chat.openai.com/auth/login">Lien vers ChatGPT</a></p>
+            </span>
         </div>
     </body>
 </html>
