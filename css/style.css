@@ -12,7 +12,9 @@ body {
 
 #btnai {
 	align-content: center;
-	border: none;
+	border:0;
+	outline: solid;
+	outline-color:#10a37f;
 	text-align:center;
 	width:3%;
 	background-size: 95%;
@@ -22,6 +24,14 @@ body {
 	background-color: #10a37f;
 	border-radius:12px;
 	padding-top:10px;
+	-webkit-transition: outline-color 2s ease-out;
+  	-moz-transition: outline-color 2s ease-out;
+  	-o-transition: outline-color 2s ease-out;
+  	transition: outline-color 2s ease-out;
+}
+
+#btnai:hover {
+	outline-color: darkslategray;
 }
 
 #btnai:after {
