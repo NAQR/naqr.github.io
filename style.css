@@ -24,6 +24,12 @@ body {
 	border-radius:12px;
 }
 
+@media (max-width: 1000px) {
+	#btnai {
+		width:22%;
+	}
+}
+
 #btnalign {
 	text-align: center;
 }
