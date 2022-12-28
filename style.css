@@ -14,7 +14,6 @@ body {
 	align-content: center;
 	border: none;
 	text-align:center;
-	height:10%;
 	width:5%;
 	background-size: 90%;
 	background-image: url(img/OpenAI_icon.svg);
@@ -22,6 +21,12 @@ body {
 	background-repeat: no-repeat;
 	background-color: #10a37f;
 	border-radius:12px;
+}
+
+#btnai:after {
+	content:"";
+	display: block;
+	padding-bottom: 100%;
 }
 
 @media (max-width: 1000px) {
