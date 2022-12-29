@@ -3,7 +3,7 @@ body {
 	background: #2d2d31;
   	background-image: radial-gradient(#f2f3f5 1px, transparent 0) !important;
   	background-size: 100px 100px;
-  	background-position: -10px -10px;
+  	background-position: -14px -10px;
   	overflow:hidden;
 }
 
@@ -80,7 +80,7 @@ body {
 }*/
 
 #sphere {
-	padding-top:5%;
+	padding-top:6%;
 }
 
 .wrap {
